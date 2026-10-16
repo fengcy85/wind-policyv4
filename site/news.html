@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="跟踪全球风电行业资讯、招标采购、竞对项目、并网和市场动态。">
+  <title>行业动态 · 全球风电政策与行业动态监测</title>
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+<div class="site-wrap">
+  <header class="masthead">
+    <div class="topline"><div class="wordmark"><span class="mark">W</span> WIND POLICY WATCH <span class="edition">全球风电情报 · AUTOMATED MONITOR</span></div><span class="header-note">公开信息 · 每日自动更新</span></div>
+    <div class="hero-copy"><div class="eyebrow">INDUSTRY SIGNALS / WIND POWER</div><h1>捕捉产业风向，<br><em>连接市场与技术决策。</em></h1><p>追踪风电项目、招标采购、竞争对手、电网建设与市场机制，把重要变化整理为清晰、可追溯的行业动态。</p></div>
+    <nav class="switcher" aria-label="监测内容切换"><a href="./index.html" class="switch"><span class="switch-icon">01</span><span>政策法规</span><span class="switch-arrow">↗</span></a><a href="./news.html" class="switch is-active" aria-current="page"><span class="switch-icon">02</span><span>行业动态</span><span class="switch-arrow">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="stat-grid" aria-label="行业动态概况"><article class="stat"><span>行业动态总量</span><strong id="totalCount">—</strong><small>保留历史监测记录</small></article><article class="stat"><span>近 7 天动态</span><strong id="weekCount">—</strong><small>最近一周风电信号</small></article><article class="stat"><span>本轮抓取成功</span><strong id="successCount">—</strong><small>来源检查成功</small></article><article class="stat"><span>需要关注的来源</span><strong id="errorCount">—</strong><small>访问或解析异常</small></article></section>
+    <div class="system-strip" role="status"><span class="live-dot"></span><span id="lastRun">正在加载行业监测更新时间…</span><span class="strip-divider">/</span><span>仅使用可追溯的公开资讯链接</span></div>
+    <section class="content-panel"><div class="panel-heading"><div><span class="section-index">01 — WEEKLY FOCUS</span><h2>本周重点信号</h2><p id="focusInfo">读取近一周精选动态…</p></div></div><div id="focusList" class="news-grid"></div><div id="focusEmpty" class="empty-message hidden">本周暂无可展示的精选动态。</div></section>
+    <section class="content-panel"><div class="panel-heading"><div><span class="section-index">02 — INDUSTRY FEED</span><h2>风电行业动态</h2><p id="resultInfo">正在读取监测库…</p></div><a class="outline-link" href="./data/wind_news.csv" download>导出行业 CSV <span aria-hidden="true">↓</span></a></div>
+      <div class="filter-row"><input id="searchInput" type="search" placeholder="搜索标题、中文译名、国家、来源…" aria-label="搜索行业动态"><select id="tagFilter" aria-label="行业标签"><option value="">全部行业标签</option></select><select id="countryFilter" aria-label="国家地区"><option value="">所有国家/地区</option></select><select id="sourceFilter" aria-label="来源网站"><option value="">所有资讯来源</option></select><select id="daysFilter" aria-label="发布时间"><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="90" selected>最近 90 天</option><option value="365">最近 1 年</option><option value="all">全部时间</option></select></div>
+      <div class="listbar"><span class="listbar-title">风电资讯 · 持续更新</span><div class="sort-buttons" role="group" aria-label="行业资讯排序"><button id="newsSortLatest" type="button" class="sort-btn active" aria-pressed="true">最新发布</button><button id="newsSortScore" type="button" class="sort-btn" aria-pressed="false">战略价值优先</button></div></div>
+      <div id="newsList" class="news-grid"></div><div id="emptyState" class="empty-message hidden">当前筛选没有行业动态；可调整发布日期或关键词。</div><div class="panel-footnote">动态信息不等同于法规要求；标题及自动译文仅供查阅，具体内容请跳转原站核对。</div></section>
+    <section class="content-panel source-panel"><div class="panel-heading"><div><span class="section-index">03 — NEWS SOURCE HEALTH</span><h2>行业动态来源状态</h2><p id="newsSourceSummary">正在加载采集来源运行结果…</p></div></div><details class="source-disclosure"><summary>查看来源检测结果 <span aria-hidden="true">⌄</span></summary><div id="sourceGrid" class="source-grid"></div></details></section>
+  </main>
+  <footer class="site-footer"><span>WIND POLICY WATCH · INDUSTRY INTELLIGENCE</span><span>公开资讯研究用途 · 不绕过登录、验证码或付费墙</span></footer>
+</div>
+<script src="./static/app.js"></script>
+</body>
+</html>

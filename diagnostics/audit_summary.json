@@ -1,0 +1,14 @@
+{
+  "reviewed_source_config_count": 138,
+  "url_updated_count": 6,
+  "previous_run_status_counts": {
+    "needs_adapter": 22,
+    "ok_no_recent": 14,
+    "partial_coverage": 44,
+    "blocked": 12,
+    "ok_with_results": 1,
+    "connection_error": 42,
+    "error": 3
+  },
+  "caution": "逐站配置审计不等于逐站抓取验证；境内网络未实际连接。仅公开可确认的地址做更换。"
+}

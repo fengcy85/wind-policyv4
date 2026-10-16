@@ -1,0 +1,56 @@
+[
+  {
+    "id": "intl_39999515ec1f",
+    "name": "沙特电力监管局 SERA｜法律法规",
+    "old_url": "https://powersaudiarabia.com.sa/web/index.html",
+    "new_url": "https://www.sera.gov.sa/en/systems-and-regulations/systems-and-regulations",
+    "reason": "官方电力监管机构法规目录，原地址是采购系统登录入口",
+    "evidence": "https://www.sera.gov.sa/en/systems-and-regulations/systems-and-regulations",
+    "live_verified": false
+  },
+  {
+    "id": "cn_68fd9b24ba66",
+    "name": "全国标准信息公共服务平台",
+    "old_url": "https://std.samr.gov.cn/",
+    "new_url": "https://std.samr.gov.cn/gb/gbQuery.National",
+    "reason": "门户首页不是国家标准目录；替换为官方标准目录检索",
+    "evidence": "https://std.samr.gov.cn/gb/gbQuery.National",
+    "live_verified": false
+  },
+  {
+    "id": "cn_ec89e3d97259",
+    "name": "云南省人民政府",
+    "old_url": "https://www.yn.gov.cn/zwgk/zcwj/zxwj/",
+    "new_url": "https://www.yn.gov.cn/zwgk/zcwj/zxwj/index.html",
+    "reason": "旧入口在日志 404；官方完整列表地址包含 index.html",
+    "evidence": "https://www.yn.gov.cn/zwgk/zcwj/zxwj/index.html",
+    "live_verified": false
+  },
+  {
+    "id": "cn_f4e44b3462eb",
+    "name": "云南省工信厅｜政策文件",
+    "old_url": "https://gxt.yn.gov.cn/zwgk/zc/zfwj2ynsgxw",
+    "new_url": "https://gxt.yn.gov.cn/zfxxgk/zcwj/qtlxwj/",
+    "reason": "旧路径 404；官方其他类型文件提供完整日期行",
+    "evidence": "https://gxt.yn.gov.cn/zfxxgk/zcwj/qtlxwj/",
+    "live_verified": false
+  },
+  {
+    "id": "intl_032ffd7444d8",
+    "name": "乌兹别克国家法律数据库",
+    "old_url": "https://lex.uz/en/",
+    "new_url": "https://lex.uz/en/search/all?lang=3",
+    "reason": "法律数据库主页不提供可核验的结果目录；替换为公开全量检索结果",
+    "evidence": "https://lex.uz/en/search/all?lang=3",
+    "live_verified": false
+  },
+  {
+    "id": "intl_64e5307cf1d2",
+    "name": "EUR-Lex 欧盟法规库",
+    "old_url": "https://eur-lex.europa.eu/homepage.html",
+    "new_url": "https://eur-lex.europa.eu/advanced-search-form.html?locale=en",
+    "reason": "欧盟法律库门户首页不是法规检索目录；使用官方高级检索表单",
+    "evidence": "https://eur-lex.europa.eu/advanced-search-form.html?locale=en",
+    "live_verified": false
+  }
+]

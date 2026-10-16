@@ -1,0 +1,5 @@
+# Professional-media policy leads (never legal-original evidence).
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'cn_5555c1d4376e', 'source_name': '北极星风力发电网｜风电政策', 'official_url': 'https://fd.bjx.com.cn/zc/', 'entry_urls': ['https://fd.bjx.com.cn/zc/'], 'strategy': 'media_policy_listing', 'list_selectors': ['a[href*="news.bjx.com.cn/html/"]'], 'date_selectors': ['span', '.date', 'time'], 'body_selectors': ['#artibody', '#content', '.article-content', '.content', 'article', '.main'], 'next_selectors': ['a:contains(下一页)'], 'url_path_hint': '/zc', 'detail_path_signals': ['/art/', '/content_', '/t20'], 'ui_search_term': '风电', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': True, 'selectors_live_verified': False, 'verification_note': '已公开确认目录包含带日期的政策报道及下一页，新闻全文域名为news.bjx.com.cn；需在执行端核查DOM和网络。媒体线索不证明法规效力。', 'source_country': '中国', 'allowed_detail_hosts': ['news.bjx.com.cn'], 'entry_level': 'public_media_policy_category_reviewed'}
+def build():
+    return SiteAdapter(PROFILE)

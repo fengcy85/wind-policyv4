@@ -1,0 +1,60 @@
+[
+  {
+    "id": "cn_c3d9397ca287",
+    "name": "上海市发展改革委｜能源政策文件",
+    "previous_url": "https://fgw.sh.gov.cn/fgw_zcwjfl/index.html",
+    "new_url": "https://fgw.sh.gov.cn/fgw_ny/index.html",
+    "rationale": "官方能源子栏目存在真实带日期的陆上风电、绿电直连政策条目",
+    "official_evidence_url": "https://fgw.sh.gov.cn/fgw_ny/index.html"
+  },
+  {
+    "id": "cn_642f1102f38a",
+    "name": "江苏省发展改革委｜法规规章规范性文件",
+    "previous_url": "https://fzggw.jiangsu.gov.cn/module/jslib/zcjd/zcjd.htm",
+    "new_url": "https://fzggw.jiangsu.gov.cn/col/col59308/index.html",
+    "rationale": "原首页仅为检索表单，改为有日期的法规入口优先；保留真正检索表单为备选",
+    "official_evidence_url": "https://fzggw.jiangsu.gov.cn/col/col59308/index.html"
+  },
+  {
+    "id": "cn_eb58eb83050f",
+    "name": "内蒙古自治区能源局｜政策举措及实施效果",
+    "previous_url": "https://nyj.nmg.gov.cn/tzgg/",
+    "new_url": "https://nyj.nmg.gov.cn/slh/zfwj/",
+    "rationale": "实见该页面按条目列出文件及发布日期，优先于一般通知公告",
+    "official_evidence_url": "https://nyj.nmg.gov.cn/slh/zfwj/"
+  },
+  {
+    "id": "cn_573ba3b6d161",
+    "name": "吉林省工业和信息化厅｜省工信厅政策文件",
+    "previous_url": "https://xxgk.jl.gov.cn/zcbm/fgw_97953/xxgkmlqy/",
+    "new_url": "https://gxt.jl.gov.cn/xxgk/zcwj_200601/sgxtwj/",
+    "rationale": "旧入口指向吉林省政府信息公开系统的工信部门，但网络环境不可访问且无法确认当前有效日期列表；替换为吉林省工信厅公开的省工信厅文件目录",
+    "official_evidence_url": "https://gxt.jl.gov.cn/xxgk/zcwj_200601/sgxtwj/"
+  },
+  {
+    "id": "cn_d6be9d4b18a8",
+    "name": "吉林省能源局｜通知公告及能源政策",
+    "previous_url": "",
+    "new_url": "https://nyj.jl.gov.cn/zwgk/tzgg/",
+    "rationale": "补齐吉林省直接负责新能源的省能源局官方通知公告及政策法规两类目录（优先能源主管部门而非仅工信厅）",
+    "official_evidence_url": "https://nyj.jl.gov.cn/zwgk/tzgg/"
+  },
+  {
+    "id": "cn_bcae52a0ff64",
+    "name": "天津市人民政府｜政府文件",
+    "previous_url": "https://www.tj.gov.cn/zwgk/szfwj/index.html",
+    "new_url": "https://www.tj.gov.cn/zwgk/szfwj/",
+    "rationale": "原带index.html的入口网页核验失败；官方 /zwgk/szfwj/ 显示带日期的市政府文件。",
+    "official_evidence_url": "https://www.tj.gov.cn/zwgk/szfwj/",
+    "verification_level": "independent_public_page_content_not_runtime_dom"
+  },
+  {
+    "id": "cn_96f475fd98fa",
+    "name": "江苏省人民政府｜省政府及办公厅文件",
+    "previous_url": "https://www.jiangsu.gov.cn/col/col84242/index.html",
+    "new_url": "https://www.jiangsu.gov.cn/col/col76841/index.html",
+    "rationale": "旧江苏栏目是信息公开页面外壳，优先可检索到日期的省政府及办公厅文件目录；若嵌入列表不可读则依次尝试官方备用。",
+    "official_evidence_url": "https://www.jiangsu.gov.cn/col/col76841/index.html",
+    "verification_level": "independent_public_page_content_not_runtime_dom"
+  }
+]

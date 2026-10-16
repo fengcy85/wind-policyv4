@@ -1,0 +1,60 @@
+{
+  "region": "analysis-container-not-cn-or-github",
+  "observed_at": "2026-10-16T07:14:43.161326+00:00",
+  "scope": {
+    "sources": 138,
+    "hosts_tested": 4,
+    "all_hosts": false
+  },
+  "warning": "Probe executed from this runner only; a China runner must be run separately",
+  "probes": [
+    {
+      "id": "cn_d4013c1b2a1e",
+      "name": "中央国务院及各部委",
+      "host": "sousuo.www.gov.cn",
+      "url": "https://sousuo.www.gov.cn/zcwjk/policyRetrieval",
+      "reachable": false,
+      "http_status": null,
+      "redirect_url": "",
+      "error_code": "dns_error",
+      "error": "DNS 解析失败；检查出口 DNS 与网络环境 [ConnectionError: HTTPSConnectionPool(host='sousuo.www.gov.cn', port=443): Max retries exceeded with url: /zcwjk/policyRetrieval (Caused by NameResolutionError(\"HTTPSCo]",
+      "elapsed_ms": 4
+    },
+    {
+      "id": "cn_37cf03ee8fd2",
+      "name": "国务院最新政策（原单篇文章入口替换）",
+      "host": "www.gov.cn",
+      "url": "https://www.gov.cn/zhengce/zuixin/",
+      "reachable": false,
+      "http_status": null,
+      "redirect_url": "",
+      "error_code": "dns_error",
+      "error": "DNS 解析失败；检查出口 DNS 与网络环境 [ConnectionError: HTTPSConnectionPool(host='www.gov.cn', port=443): Max retries exceeded with url: /zhengce/zuixin/ (Caused by NameResolutionError(\"HTTPSConnection(host]",
+      "elapsed_ms": 5013
+    },
+    {
+      "id": "intl_b0c274b1a8eb",
+      "name": "Adilet 哈萨克法规库",
+      "host": "adilet.zan.kz",
+      "url": "https://adilet.zan.kz/eng/",
+      "reachable": false,
+      "http_status": null,
+      "redirect_url": "",
+      "error_code": "dns_error",
+      "error": "DNS 解析失败；检查出口 DNS 与网络环境 [ConnectionError: HTTPSConnectionPool(host='adilet.zan.kz', port=443): Max retries exceeded with url: /eng/ (Caused by NameResolutionError(\"HTTPSConnection(host='adilet]",
+      "elapsed_ms": 5012
+    },
+    {
+      "id": "intl_fc40306c8d18",
+      "name": "kegoc.kz",
+      "host": "www.kegoc.kz",
+      "url": "https://www.kegoc.kz/en/",
+      "reachable": false,
+      "http_status": null,
+      "redirect_url": "",
+      "error_code": "dns_error",
+      "error": "DNS 解析失败；检查出口 DNS 与网络环境 [ConnectionError: HTTPSConnectionPool(host='www.kegoc.kz', port=443): Max retries exceeded with url: /en/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.kego]",
+      "elapsed_ms": 4
+    }
+  ]
+}

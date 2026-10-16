@@ -1,0 +1,480 @@
+[
+  {
+    "province": "北京",
+    "official_source_ids": [
+      "cn_24e54ba38a1a",
+      "cn_1003b870a030",
+      "cn_8101686d3883",
+      "cn_ad5b4fd78be8"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 4,
+    "live_verified": false
+  },
+  {
+    "province": "天津",
+    "official_source_ids": [
+      "cn_17bffa52408e",
+      "cn_5dc355c1a7a8",
+      "cn_bcae52a0ff64"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "河北",
+    "official_source_ids": [
+      "cn_bcbd7c678a4f",
+      "cn_9218a245fb7e"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 2,
+    "live_verified": false
+  },
+  {
+    "province": "山西",
+    "official_source_ids": [
+      "cn_05f1f10b143f",
+      "cn_0cedc4affbe8",
+      "cn_72b1e5bf6cc8",
+      "cn_f967a158ac3f"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 4,
+    "live_verified": false
+  },
+  {
+    "province": "内蒙古",
+    "official_source_ids": [
+      "cn_c6f9b3f56fe8",
+      "cn_eb58eb83050f",
+      "cn_f1e4c09a897d",
+      "cn_09b66c7ebd13"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 4,
+    "live_verified": false
+  },
+  {
+    "province": "辽宁",
+    "official_source_ids": [
+      "cn_c9be69562225",
+      "cn_4b359756b91a",
+      "cn_687800e62fca",
+      "cn_e8b37b376677"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 4,
+    "live_verified": false
+  },
+  {
+    "province": "吉林",
+    "official_source_ids": [
+      "cn_3c9957b26c3c",
+      "cn_d6be9d4b18a8",
+      "cn_573ba3b6d161",
+      "cn_fcdd8a95a7df"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 4,
+    "live_verified": false
+  },
+  {
+    "province": "黑龙江",
+    "official_source_ids": [
+      "cn_e3337f219cd6",
+      "cn_be6b37d7a3a0",
+      "cn_d9b99a25cf12"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "上海",
+    "official_source_ids": [
+      "cn_27e871c7b989",
+      "cn_a70a2ad659af",
+      "cn_c3d9397ca287"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "江苏",
+    "official_source_ids": [
+      "cn_642f1102f38a",
+      "cn_96f475fd98fa",
+      "cn_c37e9b9f7acf"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "浙江",
+    "official_source_ids": [
+      "cn_271bc860137c",
+      "cn_a85889da2306",
+      "cn_c89dbe504b64",
+      "cn_826688a2babc"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 4,
+    "live_verified": false
+  },
+  {
+    "province": "安徽",
+    "official_source_ids": [
+      "cn_23a1b77623a0",
+      "cn_a5db7e800aa9",
+      "cn_bc2b5fe1372b"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "福建",
+    "official_source_ids": [
+      "cn_b85a8fe9fba8",
+      "cn_18e109d08abf",
+      "cn_b2148d5e1247"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "江西",
+    "official_source_ids": [
+      "cn_257f0497a96d",
+      "cn_8d7abc70b68b",
+      "cn_d05bd105b38d"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "山东",
+    "official_source_ids": [
+      "cn_124239bfeb82",
+      "cn_ec953fefe292",
+      "cn_64d94992d798",
+      "cn_fdb9ab86c4a9"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 4,
+    "live_verified": false
+  },
+  {
+    "province": "河南",
+    "official_source_ids": [
+      "cn_ca01ba1d0ac7",
+      "cn_c38c37a7f95a",
+      "cn_d503c07b0951"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "湖北",
+    "official_source_ids": [
+      "cn_68fbb3ebe6ee",
+      "cn_6677a056500c",
+      "cn_7953653226d0"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "湖南",
+    "official_source_ids": [
+      "cn_64dc11b10278",
+      "cn_13b15007a2b0",
+      "cn_3fb2a96af337"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "广东",
+    "official_source_ids": [
+      "cn_35210b5ce137",
+      "cn_7239ba11c55b",
+      "cn_236457835be8",
+      "cn_5dab18c54fb9",
+      "cn_a05a053fbf35",
+      "cn_e290654fb72d"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 6,
+    "live_verified": false
+  },
+  {
+    "province": "广西",
+    "official_source_ids": [
+      "cn_d8311f7de6e6",
+      "cn_55a439b16478",
+      "cn_79acd9237aeb"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "海南",
+    "official_source_ids": [
+      "cn_cf5880769bc6",
+      "cn_9cee9310b605",
+      "cn_ef2bc5e95df5"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "重庆",
+    "official_source_ids": [
+      "cn_dc94216cbc6d",
+      "cn_43f3081a512a",
+      "cn_67c4991ac3e9"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "四川",
+    "official_source_ids": [
+      "cn_b922a2143a80",
+      "cn_1abbceed2047",
+      "cn_3973d84e5084"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "贵州",
+    "official_source_ids": [
+      "cn_61f329f622c8",
+      "cn_8a2870d6b4f1",
+      "cn_2f5ca615b97d",
+      "cn_8f9dbeeebd54",
+      "cn_a51c943c9543"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 5,
+    "live_verified": false
+  },
+  {
+    "province": "云南",
+    "official_source_ids": [
+      "cn_44bc1881857e",
+      "cn_ec89e3d97259",
+      "cn_f4e44b3462eb"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "西藏",
+    "official_source_ids": [
+      "cn_3a9624d397b1",
+      "cn_17594557097c",
+      "cn_7beeafa4d326"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "陕西",
+    "official_source_ids": [
+      "cn_42ed5bf25d5d",
+      "cn_878d16ddc7e6",
+      "cn_969ad9ff831b"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "甘肃",
+    "official_source_ids": [
+      "cn_98fa85780368",
+      "cn_6088d4f495dd",
+      "cn_884a06211f11"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "青海",
+    "official_source_ids": [
+      "cn_2988b09ee88b",
+      "cn_5cc7c12757b9",
+      "cn_b8b647e382c3"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "宁夏",
+    "official_source_ids": [
+      "cn_44abb54d7339",
+      "cn_354fb314969b",
+      "cn_7c77b32d80d0"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 3,
+    "live_verified": false
+  },
+  {
+    "province": "新疆",
+    "official_source_ids": [
+      "cn_e4c52c960d02",
+      "cn_2b0fcb94d833",
+      "cn_385aa60c445a",
+      "cn_cbab808cd2a0",
+      "cn_f772ee3b1cc5"
+    ],
+    "media_source_ids": [
+      "cn_5555c1d4376e"
+    ],
+    "monitoring_contract": "官方目录+风电政策媒体线索；媒体不能作为法规原文",
+    "contract_configured": true,
+    "source_count": 5,
+    "live_verified": false
+  }
+]

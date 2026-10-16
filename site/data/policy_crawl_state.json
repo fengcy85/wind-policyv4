@@ -1,0 +1,21 @@
+{
+  "version": "V7-province-first",
+  "last_run": null,
+  "note": "新交付包暂无V7真实抓取；历史V6状态已归档 diagnostics/",
+  "configured_source_count": 139,
+  "attempted_source_count": 0,
+  "initial_phase_count": 0,
+  "incremental_phase_count": 0,
+  "initialized_source_count": 0,
+  "pending_initialization_count": 139,
+  "bootstrap_days": 30,
+  "daily_overlap_days": 2,
+  "status_counts": {
+    "not_tested": 139
+  },
+  "change_counts": {
+    "inserted": 0,
+    "updated": 0,
+    "unchanged": 0
+  }
+}

@@ -1,0 +1,6 @@
+# 专站政策抓取入口/解析规则：天津市人民政府。需在部署环境验证，不声称已实网成功。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'cn_bcae52a0ff64', 'source_name': '天津市人民政府｜政府文件', 'official_url': 'https://www.tj.gov.cn/zwgk/szfwj/', 'strategy': 'official_provincial_document_list', 'legacy_adapter': '', 'entry_urls': ['https://www.tj.gov.cn/zwgk/szfwj/', 'https://www.tj.gov.cn/zwgk/zcwjk/'], 'list_selectors': ['.list li a[href]', 'ul li a[href]', 'main a[href]'], 'date_selectors': ['time[datetime]', '.date', '.time', '.publish-time', '.pubtime', 'span[class*=date]', '.publish-date', '.publish_time', '.list-date', '.item-date', 'td.date'], 'body_selectors': ['#UCAP-CONTENT', '.TRS_Editor', '#zoom', '.article-content', '#content', 'article', 'main', '.article_content', '.detail-content', '.art_content'], 'next_selectors': ['a[rel=next]', 'a.next', 'a:contains(下一页)'], 'url_path_hint': '/zwgk/szfwj/index.html', 'detail_path_signals': ['/art/', '/content_', '/t20'], 'ui_search_term': '风电', 'needs_browser_ui': True, 'allow_iframe': False, 'original_site_verified': True, 'selectors_live_verified': False, 'verification_note': '天津政府文件公开日期和正式条目；保留政府政策文件库为备用检索，未证明搜索页能完整遍历。', 'source_country': '中国', 'allowed_detail_hosts': []}
+
+def build():
+    return SiteAdapter(PROFILE)

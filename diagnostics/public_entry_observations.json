@@ -1,0 +1,91 @@
+{
+  "description": "Public webpage excerpts visible via independent web browsing; NOT live Python crawler results or DOM-verified selectors.",
+  "observation_date": "2026-10-16",
+  "network_fetch_in_release_container": "not_available_dns_failure",
+  "sites": [
+    {
+      "province": "全国",
+      "channel": "media",
+      "url": "https://fd.bjx.com.cn/zc/",
+      "evidence": "Visible dated policy headings from multiple provinces and next-page navigation; article links on news.bjx.com.cn",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "上海",
+      "channel": "official",
+      "url": "https://fgw.sh.gov.cn/fgw_ny/index.html",
+      "evidence": "Energy policy category lists dated 2026 land wind and solar construction policy",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "江苏",
+      "channel": "official",
+      "url": "https://fzggw.jiangsu.gov.cn/col/col59308/index.html",
+      "evidence": "Official categories of local rules, regulations and commission normative documents, with dates",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "内蒙古",
+      "channel": "official",
+      "url": "https://nyj.nmg.gov.cn/slh/zfwj/",
+      "evidence": "Energy bureau policy measures listing present",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "北京",
+      "channel": "official",
+      "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/",
+      "evidence": "Dated policy index including renewable mechanism-pricing notices",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "吉林",
+      "channel": "official",
+      "url": "https://gxt.jl.gov.cn/xxgk/zcwj_200601/sgxtwj/",
+      "evidence": "Industry and information technology bureau own provincial-policy document list present",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "吉林",
+      "channel": "official",
+      "url": "https://nyj.jl.gov.cn/zwgk/tzgg/",
+      "evidence": "Energy bureau notices index with month-day dates; year needs details verification",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "福建",
+      "channel": "official",
+      "url": "https://fgw.fujian.gov.cn/zwgk/fgzd/sfgwgfxwj/",
+      "evidence": "Development and reform commission official policy document list present",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "辽宁",
+      "channel": "official",
+      "url": "https://fgw.ln.gov.cn/fgw/zc/zxzc/index.shtml",
+      "evidence": "Development and reform commission latest policy index present",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "天津",
+      "channel": "official",
+      "url": "https://www.tj.gov.cn/zwgk/szfwj/",
+      "evidence": "天津政府文件官方栏目显示2026正式文件与日期；有别于旧index.html不可读入口。",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "江苏",
+      "channel": "official",
+      "url": "https://www.jiangsu.gov.cn/col/col76841/index.html",
+      "evidence": "省政府及办公厅文件目录/结果可见政策标题及发布日期；旧col84242只有嵌入外壳。",
+      "adapter_runtime_verified": false
+    },
+    {
+      "province": "贵州",
+      "channel": "official",
+      "url": "https://nyj.guizhou.gov.cn/zwgk/xxgkml/zcwj_2/jnwj/ptwj_2/",
+      "evidence": "贵州省能源局普通文件真实列表：2026-09-29风电光伏发电项目建设计划通知；真实第2页目录 /index_1.html。",
+      "adapter_runtime_verified": false
+    }
+  ]
+}

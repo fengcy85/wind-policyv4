@@ -1,0 +1,14 @@
+{
+  "last_run_at": null,
+  "source_total": 139,
+  "checked_source_count": 0,
+  "sources_with_http_response": 0,
+  "sources_with_candidate_evidence": 0,
+  "new_candidate_clauses": 0,
+  "total_candidate_clauses": 0,
+  "pending_review_clauses": 0,
+  "verified_and_scored_clauses": 0,
+  "source_status_count": {},
+  "warning": "历史来源状态已归档，V7本轮真实监测状态请看 policy_crawl_state.json / policy_source_status.json。",
+  "crawler_mode": "V7 province-first official directories and professional-media discovery"
+}

@@ -1,0 +1,15 @@
+{
+  "release": "V7-31province-bjx-rebuild",
+  "created_at_utc": "2026-10-16T09:35:48+00:00",
+  "complete_project": true,
+  "policy_source_count": 139,
+  "domestic_channel_count": 118,
+  "international_channel_count": 21,
+  "province_count": 31,
+  "bjx_media_source": "https://fd.bjx.com.cn/zc/",
+  "frontend_files_byte_identical": 6,
+  "offline_python_tests_passed": 78,
+  "frontend_node_test_suites_passed": 2,
+  "live_network_coverage_verified": false,
+  "note": "仅离线测试通过；真实逐站成功率需由GitHub Actions实测。"
+}

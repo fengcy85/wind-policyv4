@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="自动整理国内外风电政策法规、官方发布日期、原文节选、法规维度和产品设计影响，并提供原文跳转。">
+  <title>政策法规 · 全球风电政策与行业动态监测</title>
+  <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+<div class="site-wrap">
+  <header class="masthead">
+    <div class="topline"><div class="wordmark"><span class="mark">W</span> WIND POLICY WATCH <span class="edition">全球风电情报 · AUTOMATED MONITOR</span></div><span class="header-note">公开信息 · 每日自动更新</span></div>
+    <div class="hero-copy"><div class="eyebrow">REGULATORY INTELLIGENCE / WIND POWER</div><h1>看懂风电政策变化，<br><em>更早发现设计影响。</em></h1>
+      <p>从国内及国际来源追踪风电法规、标准和行业动态，保留可追溯原文，为机组设计与市场决策提供审慎的初筛线索。</p></div>
+    <nav class="switcher" aria-label="监测内容切换">
+      <a href="./index.html" aria-current="page" class="switch is-active"><span class="switch-icon">01</span><span>政策法规</span><span class="switch-arrow">↗</span></a>
+      <a href="./news.html" class="switch"><span class="switch-icon">02</span><span>行业动态</span><span class="switch-arrow">↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="stat-grid" aria-label="监测概况">
+      <article class="stat"><span>已配置法规来源</span><strong id="sourceTotal">—</strong><small>国内 + 海外/国际</small></article>
+      <article class="stat"><span>国内信息渠道</span><strong id="cnSourceCount">—</strong><small>官网及公开渠道</small></article>
+      <article class="stat"><span>海外及国际渠道</span><strong id="intlSourceCount">—</strong><small>跨国政策标准追踪</small></article>
+      <article class="stat"><span>法规候选记录</span><strong id="policyCount">—</strong><small>有原文证据的记录</small></article>
+    </section>
+    <div class="system-strip" role="status"><span class="live-dot"></span><span id="policyUpdatedAt">正在读取最近一次运行记录…</span><span class="strip-divider">/</span><span id="policyAIState">分析状态读取中…</span></div>
+    <section class="content-panel" aria-labelledby="policiesTitle">
+      <div class="panel-heading"><div><span class="section-index">01 — REGULATION TRACKER</span><h2 id="policiesTitle">风电政策法规库</h2><p id="policySummary">正在加载法规记录…</p></div><a class="outline-link" href="./data/policies.csv" download>导出法规 CSV <span aria-hidden="true">↓</span></a></div>
+      <div class="filter-row" aria-label="筛选法规">
+        <label class="search-control"><span class="sr-only">搜索法规</span><input id="policySearch" type="search" placeholder="搜索法规名称、原文、来源、维度…"></label>
+        <label class="sr-only" for="policyDays">发布时间</label><select id="policyDays"><option value="all">全部发布时间</option><option value="14">最近 14 天</option><option value="30">最近 30 天</option><option value="90">最近 90 天</option><option value="365">最近 1 年</option></select>
+        <label class="sr-only" for="policyRegion">来源区域</label><select id="policyRegion"><option value="">国内与国际</option><option value="国内">国内</option><option value="海外/国际">海外/国际</option></select>
+        <label class="sr-only" for="policyDimension">法规维度</label><select id="policyDimension"><option value="">全部法规维度</option></select>
+        <label class="sr-only" for="policyValidity">效力状态</label><select id="policyValidity"><option value="active">排除已标注失效</option><option value="all">全部状态</option><option value="inactive">仅失效/废止</option></select>
+      </div>
+      <div class="listbar"><span class="listbar-title">监管文件 · 官方原文可追溯</span><div class="sort-buttons" role="group" aria-label="法规排序"><button id="policySortLatest" type="button" class="sort-btn active" aria-pressed="true">最新发布</button><button id="policySortImpact" type="button" class="sort-btn" aria-pressed="false">设计关联优先</button></div></div>
+      <div id="policyList" class="policy-cards" aria-live="polite"></div>
+      <div id="policyEmpty" class="empty-message hidden">当前条件没有符合要求的政策法规。可以改为“全部发布时间”，或查看下方各来源的抓取状态。</div>
+      <div class="panel-footnote">数据来自配置的公开网页。原文节选及日期需核对官方详情；AI/规则分析仅供初筛，不代表已确认的法律效力或产品合规结论。无法核实发布日期的记录不会被标记为近期新增法规。</div>
+    </section>
+    <section class="content-panel source-panel" aria-labelledby="sourcesTitle">
+      <div class="panel-heading"><div><span class="section-index">02 — SOURCE TRANSPARENCY</span><h2 id="sourcesTitle">来源网站与抓取状态</h2><p id="sourcesSummary">正在读取来源状态…</p></div><div class="audit-count"><strong id="checkedSourceCount">—</strong><small>已轮询</small></div></div>
+      <div class="source-stats"><span>异常 / 待适配 <strong id="sourceProblemCount">—</strong></span><span>完成覆盖初始化 <strong id="sourceInitializedCount">—</strong></span><span>核验失败的渠道将继续尝试，不会虚构抓取成功</span></div>
+      <details class="source-disclosure"><summary>展开查看全部来源、失败原因与官网链接 <span aria-hidden="true">⌄</span></summary>
+        <div class="filter-row source-filter-row"><input id="sourceSearch" type="search" placeholder="搜索网站、国家或域名…" aria-label="搜索来源"><select id="sourceRegion" aria-label="来源区域"><option value="">所有区域</option><option value="国内">国内</option><option value="海外/国际">海外/国际</option></select><select id="sourceStatusFilter" aria-label="来源状态"><option value="">全部运行状态</option><option value="ok">已取得结果 / 已完成检查</option><option value="problem">抓取异常 / 待适配</option><option value="not_checked">尚未轮询</option></select></div>
+        <div id="policySourceGrid" class="source-grid"></div><div id="sourceEmpty" class="empty-message hidden">没有匹配的来源。</div>
+      </details>
+    </section>
+    <section class="content-panel dimension-panel"><div class="panel-heading"><div><span class="section-index">03 — REGULATORY TAXONOMY</span><h2>法规监测维度</h2><p>每条法规可对应多个维度，具体影响仍以官方条款及适用范围为准。</p></div></div><div id="dimensionsGrid" class="dimension-grid"></div></section>
+  </main>
+  <footer class="site-footer"><span>WIND POLICY WATCH · PUBLIC INFORMATION RESEARCH</span><span>不绕过访问限制 · 合规结论以官方原文与人工复核为准</span></footer>
+</div>
+<script src="./static/policy.js"></script>
+</body>
+</html>

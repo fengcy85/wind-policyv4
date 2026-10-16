@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-10-16T01:11:16+00:00",
+  "period": {
+    "days": 7,
+    "start": "2026-10-10",
+    "end": "2026-10-16"
+  },
+  "selection_note": "仅从六类战略监测新闻中自动精选：政策与机制优先，其次为重大招标、竞对项目、电网与审批节点。",
+  "count": 8,
+  "tag_order": [
+    "竞对资讯",
+    "招标采购",
+    "市场机制",
+    "电网建设",
+    "宏观政策",
+    "审批政策"
+  ],
+  "tag_counts": {
+    "竞对资讯": 5,
+    "招标采购": 6,
+    "市场机制": 1,
+    "电网建设": 1,
+    "宏观政策": 0,
+    "审批政策": 1
+  },
+  "items": [
+    {
+      "country": "欧盟/欧洲",
+      "source_name": "WindEurope",
+      "title": "French and German onshore wind auction results call for more volumes",
+      "translated_title": "法国和德国的上岸风能拍卖结果 需要更多卷",
+      "published_at": "2026-10-12",
+      "url": "https://windeurope.org/news/french-and-german-onshore-wind-auction-results-call-for-more-volumes/",
+      "tags": [
+        "招标采购",
+        "市场机制"
+      ],
+      "competitors": [],
+      "monitor_reason": "招标/采购节点 · 政策正文涉及市场机制 · GW级项目 · 标题明确风电",
+      "signals": [
+        "3 GW",
+        "招标采购",
+        "市场机制"
+      ],
+      "rank": 1,
+      "importance_reason": "3 GW · 招标采购 · 市场机制"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Bruce Valpy Why Taiwan’s offshore wind auction was only a two-horse race – and what needs to change opinion 12.10.2026",
+      "translated_title": "布鲁斯·瓦尔皮 为什么台湾的岸外风情拍卖只是一场两匹马的赛车,",
+      "published_at": "2026-10-15",
+      "url": "https://www.rechargenews.com/opinion/why-taiwan-s-offshore-wind-auction-was-only-a-two-horse-race-and-what-needs-to-change/2-1-2056392",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Orsted",
+        "ReNew"
+      ],
+      "monitor_reason": "招标/采购节点 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "10 GW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 2,
+      "importance_reason": "10 GW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "Germany adds 1.23 GW of solar in Sept, onshore wind approvals rebound",
+      "translated_title": "德国在9月增加了1.23千兆瓦太阳,岸上风力批准反弹",
+      "published_at": "2026-10-15",
+      "url": "https://renewablesnow.com/news/germany-adds-1-23-gw-of-solar-in-sept-onshore-wind-approvals-rebound-1303065/",
+      "tags": [
+        "审批政策"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "审批/许可节点 · GW级项目 · 标题明确风电",
+      "signals": [
+        "1.2 GW",
+        "审批政策",
+        "ReNew"
+      ],
+      "rank": 3,
+      "importance_reason": "1.2 GW · 审批政策 · ReNew"
+    },
+    {
+      "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "Acciona picked to develop 2-GW Gippsland offshore wind transmission",
+      "translated_title": "Acciona 选择开发 2-GW Gippsland 近海风力传输",
+      "published_at": "2026-10-15",
+      "url": "https://renewablesnow.com/news/acciona-picked-to-develop-2-gw-gippsland-offshore-wind-transmission-1303045/",
+      "tags": [
+        "竞对资讯",
+        "电网建设"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "电网/送出建设 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "2 GW",
+        "竞对资讯",
+        "电网建设"
+      ],
+      "rank": 4,
+      "importance_reason": "2 GW · 竞对资讯 · 电网建设"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "US, Turkey and Germany push Nordex orders up by nearly a third onshore wind 12.10.2026",
+      "translated_title": "美国,土耳其和德国将诺德克斯订单推上近三分之一的岸上风力 12.1026",
+      "published_at": "2026-10-15",
+      "url": "https://www.rechargenews.com/onshore-wind/us-turkey-and-germany-push-nordex-orders-up-by-nearly-a-third/2-1-2056986",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Nordex",
+        "Orsted",
+        "ReNew"
+      ],
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "10 GW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 5,
+      "importance_reason": "10 GW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "全球",
+      "source_name": "Recharge",
+      "title": "Floating drifts further into the horizon: Scale a decade away, DNV warns offshore wind 12.10.2026",
+      "translated_title": "漂浮在地平线上 十年后,DNV警告岸外风切变12.10.226",
+      "published_at": "2026-10-15",
+      "url": "https://www.rechargenews.com/offshore-wind/floating-drifts-further-into-the-horizon-scale-a-decade-away-dnv-warns/2-1-2056833",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "Orsted",
+        "ReNew"
+      ],
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · GW级项目 · 标题明确风电",
+      "signals": [
+        "10 GW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 6,
+      "importance_reason": "10 GW · 竞对资讯 · 招标采购"
+    },
+    {
+      "country": "全球",
+      "source_name": "Renewables Now",
+      "title": "Germany keeps onshore wind tender volume at 2.5 GW",
+      "translated_title": "德国将岸上风力发电量保持在2.5千瓦",
+      "published_at": "2026-10-15",
+      "url": "https://renewablesnow.com/news/germany-keeps-onshore-wind-tender-volume-at-2-5-gw-1303044/",
+      "tags": [
+        "招标采购"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "招标/采购节点 · GW级项目 · 标题明确风电",
+      "signals": [
+        "2.5 GW",
+        "招标采购",
+        "ReNew"
+      ],
+      "rank": 7,
+      "importance_reason": "2.5 GW · 招标采购 · ReNew"
+    },
+    {
+      "country": "印度",
+      "source_name": "Energetica India – Wind Power",
+      "title": "Alfanar to Sell 507.9 MW Gujarat Wind Portfolio to KPI Green",
+      "translated_title": "Alfanar向KPI Green出售507.9兆瓦古吉拉特风能组合",
+      "published_at": "2026-10-15",
+      "url": "https://www.energetica-india.net/news/alfanar-to-sell-5079-mw-gujarat-wind-portfolio-to-kpi-green",
+      "tags": [
+        "竞对资讯",
+        "招标采购"
+      ],
+      "competitors": [
+        "ReNew"
+      ],
+      "monitor_reason": "正文含招标/采购 · 竞对项目动态 · 500MW+项目 · 标题明确风电",
+      "signals": [
+        "508 MW",
+        "竞对资讯",
+        "招标采购"
+      ],
+      "rank": 8,
+      "importance_reason": "508 MW · 竞对资讯 · 招标采购"
+    }
+  ]
+}

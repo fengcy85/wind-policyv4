@@ -1,0 +1,5 @@
+# 专站配置：乌兹别克国家法律数据库。未声称已经通过该站的实网抓取验收。
+from adapters.registry import SiteAdapter
+PROFILE = {'source_id': 'intl_032ffd7444d8', 'source_name': '乌兹别克国家法律数据库', 'official_url': 'https://lex.uz/en/search/all?lang=3', 'strategy': 'legal_database', 'legacy_adapter': '', 'entry_urls': ['https://lex.uz/en/search/all?lang=3'], 'list_selectors': ['.search-results a[href]', '.searchResult a[href]', '.result-list a[href]', '.table a[href]', 'table tr a[href]', '.results a[href]', 'article a[href]'], 'date_selectors': ['.date', '.document-date', 'time[datetime]', '.published', '.timestamp'], 'body_selectors': ['article', '.article-body', '.entry-content', '.content', 'main'], 'next_selectors': ['a[rel=next]', '.pagination a[href]'], 'url_path_hint': '/en/search/all', 'detail_path_signals': ['/doc/', '/document/', '/en/', '/eng/'], 'ui_search_term': 'wind', 'needs_browser_ui': False, 'allow_iframe': False, 'original_site_verified': False, 'selectors_live_verified': False, 'verification_note': '官方页面核对为公开检索入口；实际查询、日期及分页仍需部署端核验', 'source_country': '乌兹别克斯坦', 'date_format_hint': 'year-first, day-first, ISO, month-name'}
+def build():
+    return SiteAdapter(PROFILE)
